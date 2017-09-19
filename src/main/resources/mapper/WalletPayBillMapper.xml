@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ma.wallet.dao.WalletPayBillMapper">
+  <resultMap id="BaseResultMap" type="com.ma.wallet.model.WalletPayBill">
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="PAY_NO" jdbcType="VARCHAR" property="payNo" />
+    <result column="BUYER_ID" jdbcType="DECIMAL" property="buyerId" />
+    <result column="ORDER_NO" jdbcType="VARCHAR" property="orderNo" />
+    <result column="PLATFORM" jdbcType="DECIMAL" property="platform" />
+    <result column="CASH_AMOUT" jdbcType="DECIMAL" property="cashAmout" />
+    <result column="UNCASH_AMOUNT" jdbcType="DECIMAL" property="uncashAmount" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="PAY_TYPE" jdbcType="DECIMAL" property="payType" />
+    <result column="TRADE_NO" jdbcType="VARCHAR" property="tradeNo" />
+    <result column="PAY_ID" jdbcType="DECIMAL" property="payId" />
+    <result column="IP" jdbcType="VARCHAR" property="ip" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  
+</mapper>
