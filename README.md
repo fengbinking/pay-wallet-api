@@ -14,3 +14,7 @@
 
 ## 接口测试
 * 项目测试类SuperveneRequestTest中已编写测试用例
+
+## 后期开放
+1.与springcloud整合
+2.增加分库分表及分布式事务
